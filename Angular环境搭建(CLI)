@@ -37,7 +37,7 @@ Step 6: ng serve
 1.cnpm install @angular/platform-browser --save-dev
 2.cnpm install @angular/platform-browser-dynamic --save-dev
 3.cnpm install @angular/router --save-dev
-4.ng serve
+4.ng serve/ng serve --prod -aot  
 5.localhost:4200
 
 
