@@ -24,3 +24,9 @@
     cnpm install -g @angular/cli@latest
   
 3.安装完成后输入ng help查看是否安装成功
+
+如果ng serve出错，尝试一下步骤 
+Step 1: npm install -g @angular/cli@latest   
+Step 2: ng new name-of-project (ignore if project already created)  
+Step 3: cd name-of-project (ignore if project already created)   
+Step 4: npm install @angular/cli --save-dev   Step 5: npm install @angular/compiler-cli --save-dev   Step 6: ng serve 
