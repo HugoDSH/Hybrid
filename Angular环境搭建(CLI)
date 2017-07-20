@@ -32,6 +32,7 @@
 6.运行ng serve
 
 完成以上步骤如果ng serve出错，请在项目目录下尝试一下步骤 
+执行下面步骤之前请在本项目目录下卸载@angular/cli和@angular/compiler依赖库，并执行npm cache clean
 （如果已经创建项目并进入项目目录请忽略）Step 1: cnpm install -g @angular/cli@latest     
 （如果已经创建项目并进入项目目录请忽略）Step 2: ng new name-of-project (ignore if project already created)  
 （如果已经创建项目并进入项目目录请忽略）Step 3: cd name-of-project (ignore if project already created)   
