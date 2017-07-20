@@ -25,10 +25,16 @@
   
 3.安装完成后输入ng help查看是否安装成功
 
-完成以上步骤如果ng serve出错，尝试一下步骤 
-Step 1: cnpm install -g @angular/cli@latest   
-Step 2: ng new name-of-project (ignore if project already created)  
-Step 3: cd name-of-project (ignore if project already created)   
+4.ng new project_name
+
+5.进入project_name目录
+
+6.运行ng serve
+
+完成以上步骤如果ng serve出错，请在项目目录下尝试一下步骤 
+（如果已经创建项目并进入项目目录请忽略）Step 1: cnpm install -g @angular/cli@latest     
+（如果已经创建项目并进入项目目录请忽略）Step 2: ng new name-of-project (ignore if project already created)  
+（如果已经创建项目并进入项目目录请忽略）Step 3: cd name-of-project (ignore if project already created)   
 Step 4: cnpm install @angular/cli --save-dev   
 Step 5: cnpm install @angular/compiler-cli --save-dev   
 Step 6: ng serve 
@@ -38,7 +44,7 @@ Step 6: ng serve
 2.cnpm install @angular/platform-browser-dynamic --save-dev
 3.cnpm install @angular/router --save-dev
 4.ng serve/ng serve --prod -aot  
-5.localhost:4200
+5.http://localhost:4200
 
 
 
